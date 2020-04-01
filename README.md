@@ -31,4 +31,3 @@ The minecraft world is saved in the folder world.
 
 ## Thanks
 Thanks [Tiiffi](https://github.com/Tiiffi) for the mcrcon.
-the folder world.
