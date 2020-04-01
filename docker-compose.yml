@@ -1,0 +1,16 @@
+version: '3.1'
+
+services: 
+  minecraft:
+    image: minecraft:latest
+    build: .
+    container_name: mc-server
+    ports: 
+      - 25565:25565
+      - 25575:25575
+    volumes:  
+      - ./world:/Minecraft_Server/world:rw
+
+
+
+
